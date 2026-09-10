@@ -665,7 +665,7 @@ with chart_col1:
 
     st.plotly_chart(
         fig_risk,
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -723,7 +723,7 @@ with chart_col2:
 
     st.plotly_chart(
         fig_attention,
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -893,7 +893,7 @@ display_df["Actual Progress %"] = (
 
 st.dataframe(
     display_df,
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
 )
 
@@ -937,7 +937,7 @@ st.sidebar.divider()
 
 if st.sidebar.button(
     "🔄 Refresh Dashboard",
-    use_container_width=True
+    width="stretch"
 ):
     st.rerun()
 
@@ -1253,7 +1253,7 @@ with chart_col1:
 
     st.plotly_chart(
         fig_progress,
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -1309,7 +1309,7 @@ with chart_col2:
 
     st.plotly_chart(
         fig_cost,
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -1385,7 +1385,7 @@ if explanation is not None:
 
         st.plotly_chart(
             fig_shap,
-            use_container_width=True
+            width="stretch"
         )
 
         st.caption(
@@ -1460,7 +1460,7 @@ if milestones is not None and len(milestones) > 0:
 
     st.dataframe(
         milestone_df,
-        use_container_width=True,
+        width="stretch",
         hide_index=True
     )
 
@@ -1543,7 +1543,7 @@ if (
 
     st.plotly_chart(
         fig_history,
-        use_container_width=True
+        width="stretch"
     )
 
 else:
@@ -1641,7 +1641,7 @@ with button_col1:
 
     if st.button(
         "🚨 Generate Latest AI Alerts",
-        use_container_width=True
+        width="stretch"
     ):
 
         result = api_post(
