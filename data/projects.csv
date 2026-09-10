@@ -1,0 +1,61 @@
+project_id,project_name,department,location,project_type,start_date,expected_completion_date,budget,current_cost,planned_progress,actual_progress,status
+1,Ahmedabad Metro Phase 2,Urban Development,Ahmedabad,Metro Rail,2024-01-15,2026-12-31,1200000000,980000000,78,71,At Risk
+2,Mumbai Coastal Road Package 3,Public Works,Mumbai,Road Infrastructure,2023-04-10,2026-03-31,850000000,790000000,92,88,Delayed
+3,Delhi Water Supply Upgrade,Water Resources,Delhi,Water Infrastructure,2024-02-01,2026-10-31,450000000,270000000,65,68,On Track
+4,Surat Smart Drainage Network,Urban Development,Surat,Drainage,2024-06-15,2026-08-30,320000000,250000000,72,59,At Risk
+5,Pune Ring Road Package 1,Public Works,Pune,Road Infrastructure,2023-08-01,2027-01-31,1500000000,610000000,55,48,At Risk
+6,Chennai Metro Extension,Transport,Chennai,Metro Rail,2023-01-20,2026-11-30,1800000000,1420000000,85,82,On Track
+7,Bengaluru Elevated Corridor,Transport,Bengaluru,Road Infrastructure,2024-03-01,2027-03-31,1100000000,520000000,48,39,At Risk
+8,Jaipur Water Treatment Plant,Water Resources,Jaipur,Water Infrastructure,2024-01-10,2026-06-30,380000000,365000000,94,91,Delayed
+9,Hyderabad IT Corridor Road,Public Works,Hyderabad,Road Infrastructure,2023-09-15,2026-09-30,720000000,680000000,89,85,On Track
+10,Kolkata River Bridge,Transport,Kolkata,Bridge,2023-05-01,2026-12-31,950000000,820000000,76,69,At Risk
+11,Lucknow Smart Traffic System,Urban Development,Lucknow,Smart City,2024-04-01,2026-07-31,210000000,170000000,83,79,On Track
+12,Bhopal Urban Housing Phase 1,Housing,Bhopal,Housing,2023-11-15,2026-08-31,600000000,480000000,74,63,At Risk
+13,Kochi Metro Phase 2,Transport,Kochi,Metro Rail,2024-02-15,2027-06-30,1350000000,430000000,42,39,On Track
+14,Nagpur Logistics Park,Industries,Nagpur,Industrial Infrastructure,2023-06-01,2026-10-31,900000000,760000000,81,73,Delayed
+15,Patna Urban Flyover,Public Works,Patna,Flyover,2024-05-10,2027-02-28,500000000,290000000,52,46,At Risk
+16,Gandhinagar Solar Park,Energy,Gandhinagar,Solar Energy,2024-01-01,2026-12-31,700000000,490000000,69,72,On Track
+17,Indore Waste Processing Plant,Urban Development,Indore,Waste Management,2023-10-01,2026-05-31,280000000,295000000,96,89,Delayed
+18,Bhubaneswar Airport Expansion,Transport,Bhubaneswar,Airport Infrastructure,2024-03-15,2027-01-31,1000000000,420000000,47,44,On Track
+19,Chandigarh Smart Water Network,Water Resources,Chandigarh,Water Infrastructure,2024-07-01,2026-12-31,260000000,180000000,61,54,At Risk
+20,Ranchi Highway Upgrade,Public Works,Ranchi,Highway,2023-12-01,2026-09-30,650000000,590000000,88,81,Delayed
+21,Ahmedabad Bus Rapid Transit Upgrade,Transport,Ahmedabad,Public Transport,2024-02-01,2026-08-31,410000000,300000000,73,70,On Track
+22,Mumbai Affordable Housing Phase 2,Housing,Mumbai,Housing,2023-07-15,2027-03-31,1250000000,850000000,58,49,At Risk
+23,Delhi Electric Bus Infrastructure,Transport,Delhi,Public Transport,2024-05-01,2026-11-30,340000000,250000000,67,64,On Track
+24,Surat Riverfront Development,Urban Development,Surat,Urban Development,2023-09-01,2027-06-30,980000000,610000000,51,43,At Risk
+25,Pune Water Pipeline Modernization,Water Resources,Pune,Water Infrastructure,2024-01-15,2026-07-31,390000000,350000000,91,86,Delayed
+26,Chennai Outer Ring Road,Public Works,Chennai,Road Infrastructure,2023-04-01,2027-12-31,1600000000,920000000,57,50,At Risk
+27,Bengaluru Metro Station Upgrade,Transport,Bengaluru,Metro Rail,2024-06-01,2026-12-31,530000000,360000000,65,62,On Track
+28,Jaipur Heritage Infrastructure,Urban Development,Jaipur,Urban Development,2024-02-10,2026-09-30,180000000,145000000,79,73,On Track
+29,Hyderabad Flood Management System,Water Resources,Hyderabad,Flood Management,2023-08-15,2026-10-31,470000000,430000000,84,72,Delayed
+30,Kolkata Urban Mobility Project,Transport,Kolkata,Public Transport,2024-03-01,2027-03-31,780000000,390000000,45,41,At Risk
+31,Lucknow Ring Road Package 2,Public Works,Lucknow,Road Infrastructure,2023-06-15,2026-12-31,920000000,810000000,82,77,Delayed
+32,Bhopal Smart Lighting Network,Urban Development,Bhopal,Smart City,2024-04-15,2026-08-31,150000000,105000000,76,74,On Track
+33,Kochi Port Modernization,Transport,Kochi,Port Infrastructure,2023-02-01,2027-06-30,1450000000,1080000000,68,61,At Risk
+34,Nagpur Metro Extension,Transport,Nagpur,Metro Rail,2024-01-20,2027-12-31,1750000000,460000000,38,35,On Track
+35,Patna Sewerage Improvement,Water Resources,Patna,Sewerage,2023-10-15,2026-11-30,330000000,315000000,90,82,Delayed
+36,Gandhinagar Government Housing,Housing,Gandhinagar,Housing,2024-05-15,2027-02-28,420000000,210000000,49,45,On Track
+37,Indore Urban Road Renewal,Public Works,Indore,Road Infrastructure,2024-02-01,2026-09-30,290000000,245000000,81,76,On Track
+38,Bhubaneswar Smart City Control Center,Urban Development,Bhubaneswar,Smart City,2023-11-01,2026-07-31,240000000,230000000,95,87,Delayed
+39,Chandigarh Solar Rooftop Program,Energy,Chandigarh,Solar Energy,2024-06-15,2026-12-31,190000000,120000000,59,62,On Track
+40,Ranchi Rural Road Connectivity,Public Works,Ranchi,Rural Roads,2023-09-01,2027-03-31,540000000,430000000,64,56,At Risk
+41,Ahmedabad Waste Management Upgrade,Urban Development,Ahmedabad,Waste Management,2024-03-15,2026-10-31,310000000,220000000,70,67,On Track
+42,Mumbai Metro Line 11,Transport,Mumbai,Metro Rail,2023-01-10,2028-03-31,2200000000,1380000000,62,53,At Risk
+43,Delhi Highway Safety Upgrade,Public Works,Delhi,Highway,2024-01-01,2026-08-31,270000000,235000000,87,83,On Track
+44,Surat Affordable Housing,Housing,Surat,Housing,2023-12-01,2026-12-31,510000000,440000000,78,69,At Risk
+45,Pune Smart Traffic Signals,Urban Development,Pune,Smart City,2024-04-01,2026-09-30,130000000,95000000,82,80,On Track
+46,Chennai Water Desalination Plant,Water Resources,Chennai,Water Infrastructure,2023-05-15,2027-05-31,880000000,720000000,71,63,Delayed
+47,Bengaluru Peripheral Road,Public Works,Bengaluru,Road Infrastructure,2023-07-01,2027-12-31,1950000000,870000000,46,38,At Risk
+48,Jaipur Solar Energy Park,Energy,Jaipur,Solar Energy,2024-02-15,2026-11-30,620000000,390000000,67,65,On Track
+49,Hyderabad Metro Phase 2,Transport,Hyderabad,Metro Rail,2023-10-01,2028-03-31,2100000000,940000000,44,37,At Risk
+50,Kolkata Drainage Improvement,Water Resources,Kolkata,Drainage,2024-05-01,2026-10-31,360000000,310000000,78,70,Delayed
+51,Lucknow Affordable Housing,Housing,Lucknow,Housing,2024-01-15,2027-02-28,580000000,320000000,56,53,On Track
+52,Bhopal Road Expansion,Public Works,Bhopal,Road Infrastructure,2023-08-01,2026-12-31,680000000,590000000,85,78,Delayed
+53,Kochi Smart Port System,Transport,Kochi,Port Infrastructure,2024-04-15,2027-06-30,520000000,290000000,51,48,On Track
+54,Nagpur Water Treatment Upgrade,Water Resources,Nagpur,Water Infrastructure,2023-12-15,2026-08-31,350000000,330000000,93,86,Delayed
+55,Patna Urban Road Network,Public Works,Patna,Road Infrastructure,2024-02-01,2027-01-31,490000000,270000000,50,47,On Track
+56,Gandhinagar Smart Governance Center,Urban Development,Gandhinagar,Smart City,2024-06-01,2026-12-31,175000000,110000000,63,61,On Track
+57,Indore Solar City Program,Energy,Indore,Solar Energy,2023-09-15,2026-11-30,430000000,380000000,88,79,Delayed
+58,Bhubaneswar Housing Development,Housing,Bhubaneswar,Housing,2024-03-01,2027-03-31,610000000,310000000,48,45,On Track
+59,Chandigarh Road Safety Corridor,Public Works,Chandigarh,Road Infrastructure,2023-11-15,2026-10-31,270000000,260000000,92,84,Delayed
+60,Ranchi Water Supply Phase 2,Water Resources,Ranchi,Water Infrastructure,2024-05-01,2027-02-28,460000000,240000000,55,51,On Track
