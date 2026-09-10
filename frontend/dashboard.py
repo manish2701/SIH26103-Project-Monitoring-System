@@ -11,7 +11,7 @@ import streamlit as st
 # CONFIGURATION
 # =========================================================
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://sih26103-project-monitoring-system.onrender.com"
 
 st.set_page_config(
     page_title="SIH26103 | Project Monitoring",
