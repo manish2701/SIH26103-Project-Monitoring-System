@@ -28,42 +28,52 @@ st.set_page_config(
 # =========================================================
 
 def api_get(endpoint):
-    try:
-        with urllib.request.urlopen(
-            f"{API_URL}{endpoint}",
-            timeout=15
-        ) as response:
-            return json.loads(
-                response.read().decode("utf-8")
-            )
+    url = f"{API_URL}{endpoint}"
 
-    except urllib.error.URLError:
-        return None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(
+                url,
+                timeout=60
+            ) as response:
+                return json.loads(
+                    response.read().decode("utf-8")
+                )
 
-    except Exception:
-        return None
+        except Exception as e:
+            if attempt == 1:
+                st.error(f"API request failed: {url}")
+                st.error(f"Error: {e}")
+                return None
+
+    return None
 
 
 def api_post(endpoint):
-    try:
-        request = urllib.request.Request(
-            f"{API_URL}{endpoint}",
-            method="POST"
-        )
+    url = f"{API_URL}{endpoint}"
 
-        with urllib.request.urlopen(
-            request,
-            timeout=15
-        ) as response:
-            return json.loads(
-                response.read().decode("utf-8")
+    for attempt in range(2):
+        try:
+            request = urllib.request.Request(
+                url,
+                method="POST"
             )
 
-    except urllib.error.URLError:
-        return None
+            with urllib.request.urlopen(
+                request,
+                timeout=60
+            ) as response:
+                return json.loads(
+                    response.read().decode("utf-8")
+                )
 
-    except Exception:
-        return None
+        except Exception as e:
+            if attempt == 1:
+                st.error(f"API request failed: {url}")
+                st.error(f"Error: {e}")
+                return None
+
+    return None
 
 
 # =========================================================
